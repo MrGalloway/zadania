@@ -1,9 +1,9 @@
-
+//1
 let city = {
 	capital: 'false',
 	population: 213213,
 	president: 'Pawel Dadun',
-	ministers: ['jakub Bem','Hugo Meissner','Albert Wojcik']
+	ministers: ['Jakub Bem','Hugo Meissner','Albert Wojcik']
 
 }
 
@@ -12,7 +12,8 @@ console.log(city.population);
 console.log(city.president);
 console.log(city.ministers);
 
-let maksym = {
+//2
+let person = {
 	name: 'Maksym',
 	age: 25,
 	sayHello: function(){
@@ -20,15 +21,25 @@ let maksym = {
 	}
 }
 
+console.log(person.name);
+console.log(person.age);
+person.sayHello();
+
+//3
 var timeMachine = {
 	shape: 'square',
-	model: 'lol',
+	model: 'lol4000',
 	run: function(date, place){
-		console.log('moving to' + place + ' in ' + date);
+		console.log('moving to ' + place + ' in ' + date);
 	}
 
 }
 
+console.log(timeMachine.shape);
+console.log(timeMachine.model);
+timeMachine.run(1993, 'infinity');
+
+//4
 var recipe = {
 	title: 'Lody z wody',
 	servings: 3
@@ -36,10 +47,11 @@ var recipe = {
 
 recipe.ingredients = ['Woda','Water','Ice ice baby'];
 
-//for(var key in movie ){
-//	console.log(key, movie[key]);
-//}
+console.log(recipe.title);
+console.log(recipe.servings);
+console.log(recipe.ingredients);
 
+//7
 var spoon = {
     isExist: true
 }
