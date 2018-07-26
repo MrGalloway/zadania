@@ -31,3 +31,21 @@ var animals = [
     }
     
   ];
+
+//for(animal in animals){
+//	//for(let i=0; i<animal.length; i++){
+//		//
+//	//}
+//	for(key in animal){
+//		console.log(key, animal[key]);
+//	}
+//	
+//	//console.log(animal);
+//} 
+//	for(key in animals){
+//		//console.log(key, animals[key]);
+//		for(a in key){
+//			console.log(a, key[a]);
+//		}
+//	}
+
